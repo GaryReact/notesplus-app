@@ -1,0 +1,99 @@
+.Moviecomp {
+    background-color: #d3f0ea;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 1rem;
+    min-height: 170px;
+    /* background-image: url("logo.svg"); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.movie-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.Moviecomp.new {
+    background-color: #d3f0ea;
+}
+
+textarea {
+    border: none;
+    resize: none;
+    background-color: transparent;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.add {
+    background-color: #2e98b0;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px 5px 10px;
+}
+
+.add:hover {
+    background-color: #75bec9;
+    cursor: pointer;
+}
+
+.Moviescomp {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+#deletebutton {
+    background-color: #2e98b0;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px 5px 10px;
+}
+
+#deletebutton:hover {
+    background-color: #75bec9;
+    cursor: pointer;
+}
+
+.App {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#Title {
+    color: #E50914;
+    font-family: sans-serif;
+}
+
+.Moviecomp:hover {
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.search {
+    display: flex;
+    margin-bottom: 1.5em;
+    border-radius: 10px;
+    background-color: rgb(233, 233, 233);
+    padding: 5px;
+}
+
+.search input {
+    background-color: rgb(233, 233, 233);
+
+    border: none
+}
+
+.search input:focus {
+    outline: none;
+}
+
